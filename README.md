@@ -26,7 +26,7 @@ Version Control Systems (**VCS**) are essential for managing software changes, e
    ```sh
    svn --version
    ```
-![Screenshot](images/Screenshot-2025-02-14-142716.png)
+![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20142716.png)
 
 
 ### ⚡ Essential SVN Commands
