@@ -32,22 +32,24 @@ Version Control Systems (**VCS**) are essential for managing software changes, e
 ### ⚡ Essential SVN Commands
 #### **📘 Step 1: Creating & Initializing a Repository**
 ```sh
-svnadmin create C:/Tarak_repo
+svnadmin create C:\svn_repos\my_repo
 ```
+(Replace C:\svn_repos\my_repo with your desired path.)
 ![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20143202.png)
 
 
 #### **📂 Step 2: Checking Out a Repository**
 ```sh
-svn checkout file:///C:/Tarak_repo Tarak-project
+svn checkout file:///C:/svn_repos/my_repo C:\Users\YourUser\my_working_copy
 ```
+(Replace C:/svn_repos/my_repo with your actual repository path and C:\Users\YourUser\my_working_copy with your working directory.)
 ![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20021105.png)
 
 
 #### **🔍 Step 3: Making Changes & Committing**
 ```sh
-svn add newfile.txt  
-svn commit -m "Added newfile.txt"
+svn add C:\Users\YourUser\project\file.txt
+svn commit -m "Added file.txt"
 ```
 ![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20021314.png)
 
@@ -66,8 +68,8 @@ svn revert file.txt
 
 #### **🎨 Step 6: Branching & Merging**
 ```sh
-svn copy file:///C:/Tarak_svn_repo/trunk file:///C:/Tarak_svn_repo/branches/new-feature -m "Creating a branch by Tarak"
-svn merge file:///C:/Tarak_svn_repo/branches/new-feature
+svn copy file:///C:/svn_repos/my_repo/trunk file:///C:/svn_repos/my_repo/branches/feature-branch -m "Creating a feature branch"
+svn merge file:///C:/svn_repos/my_repo/branches/feature-branch
 ```
 ![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20021922.png)
 ![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20021949.png)
