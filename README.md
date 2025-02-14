@@ -32,6 +32,7 @@ Version Control Systems (**VCS**) are essential for managing software changes, e
 ```sh
 svnadmin create C:/Tarak_svn_repo
 ```
+![Screenshot](images/Screenshot 2025-02-14 142716.png)
 
 #### **📂 Step 2: Checking Out a Repository**
 ```sh
