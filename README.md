@@ -49,23 +49,29 @@ svn checkout file:///C:/Tarak_repo Tarak-project
 svn add newfile.txt  
 svn commit -m "Added newfile.txt"
 ```
+![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20021314.png)
 
 #### **🔄 Step 4: Updating & Viewing Logs**
 ```sh
 svn update  
 svn log
 ```
+![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20021435.png)
 
 #### **↩️ Step 5: Reverting Changes**
 ```sh
 svn revert file.txt
 ```
+![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20021527.png)
 
 #### **🎨 Step 6: Branching & Merging**
 ```sh
 svn copy file:///C:/Tarak_svn_repo/trunk file:///C:/Tarak_svn_repo/branches/new-feature -m "Creating a branch by Tarak"
 svn merge file:///C:/Tarak_svn_repo/branches/new-feature
 ```
+![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20021922.png)
+![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20021949.png)
+![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20022006.png)
 
 ---
 
