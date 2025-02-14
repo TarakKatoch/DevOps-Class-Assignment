@@ -86,18 +86,22 @@ svn merge file:///C:/Tarak_svn_repo/branches/new-feature
    ```sh
    hg --version
    ```
+   ![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20023939.png)
 
 ### ⚡ Essential Mercurial Commands
 #### **📘 Step 1: Creating & Initializing a Repository**
 ```sh
 hg init my-hg-repo
 ```
+![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20024030.png)
 
 #### **📂 Step 2: Adding & Committing Files**
 ```sh
 hg add newfile.txt  
 hg commit -m "Added newfile.txt"
 ```
+![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20024209.png)
+![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20024425.png)
 
 #### **🔍 Step 3: Cloning, Updating & Reverting**
 ```sh
@@ -106,12 +110,17 @@ hg pull
 hg update  
 hg log
 ```
+![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20024954.png)
+![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20025414.png)
+![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20025439.png)
 
 #### **🎨 Step 4: Branching & Merging**
 ```sh
 hg branch new-feature  
 hg merge
 ```
+![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20025807.png)
+![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20025834.png)
 
 ---
 
