@@ -32,15 +32,17 @@ Version Control Systems (**VCS**) are essential for managing software changes, e
 ### ⚡ Essential SVN Commands
 #### **📘 Step 1: Creating & Initializing a Repository**
 ```sh
-svnadmin create C:/Tarak_svn_repo
+svnadmin create C:/Tarak_repo
 ```
 ![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20143202.png)
 
 
 #### **📂 Step 2: Checking Out a Repository**
 ```sh
-svn checkout file:///C:/Tarak_svn_repo/trunk C:/Users/asus/Tarak-project
+svn checkout file:///C:/Tarak_repo Tarak-project
 ```
+![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20021105.png)
+
 
 #### **🔍 Step 3: Making Changes & Committing**
 ```sh
