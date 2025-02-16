@@ -137,7 +137,7 @@ svn merge file:///C:/svn_repos/my_repo/branches/feature-branch
 
 ---
 
-## 🌐 Mercurial (HG) - A Distributed Version Control System
+## 🌐 Mercurial (HG)
 
 Mercurial (**Hg**) is a **distributed version control system (DVCS)** designed for speed, efficiency, and ease of use. It enables developers to track changes in source code and collaborate effectively.
 
