@@ -138,6 +138,83 @@ svn merge file:///C:/svn_repos/my_repo/branches/feature-branch
 ---
 
 ## 🌐 Mercurial (HG) - A Distributed Version Control System
+
+Mercurial (**Hg**) is a **distributed version control system (DVCS)** designed for speed, efficiency, and ease of use. It enables developers to track changes in source code and collaborate effectively.
+
+---
+
+## **🔹 Key Features of Mercurial**
+
+1. **Distributed Architecture**
+   - Every developer has a complete copy of the repository.
+   - No central server is required, but one can be used for collaboration.
+
+2. **Fast Performance**
+   - Optimized for handling large codebases efficiently.
+
+3. **Simple and Intuitive Commands**
+   - Commands are user-friendly and similar to Git.
+
+4. **Atomic Commits**
+   - Ensures that commits are completed successfully or not at all.
+
+5. **Branching & Merging**
+   - Supports easy branching and merging, preserving history.
+
+6. **Scalability**
+   - Handles projects of all sizes, from small teams to enterprise applications.
+
+---
+
+## **🔹 How Mercurial Works?**
+
+### **1️⃣ Distributed Repositories**
+Each user has a complete copy of the repository, enabling offline work.
+
+### **2️⃣ Committing Changes**
+- Developers **edit files locally**.
+- They **commit changes**, creating a new revision in their local repository.
+
+### **3️⃣ Pull & Push**
+- Developers **pull** changes from others.
+- They **push** their changes to a shared repository when ready.
+
+### **4️⃣ Merging & Conflict Resolution**
+- Mercurial provides tools to merge changes from multiple sources.
+
+---
+
+## **🔹 Basic Mercurial Commands**
+
+| **Command** | **Description** |
+|------------|----------------|
+| `hg init` | Initialize a new Mercurial repository |
+| `hg clone <repo-url>` | Clone an existing repository |
+| `hg status` | Show modified files |
+| `hg add <file>` | Add a new file to version control |
+| `hg commit -m "Message"` | Commit changes to the repository |
+| `hg pull` | Fetch changes from a remote repository |
+| `hg push` | Push committed changes to a remote repository |
+| `hg update` | Update working directory to a specific revision |
+| `hg merge` | Merge branches |
+| `hg log` | View commit history |
+
+---
+
+## **🔹 Mercurial vs. Git: Key Differences**
+
+| **Feature** | **Mercurial** | **Git** |
+|------------|-------------|---------|
+| **Type** | Distributed VCS | Distributed VCS |
+| **Repository** | Every user has a full copy | Every user has a full copy |
+| **Speed** | Fast, but slightly slower than Git | Extremely fast |
+| **Branching** | Supports named branches and bookmarks | Lightweight branches |
+| **Merging** | Simplified merging process | Advanced merging capabilities |
+| **Offline Work** | Fully supported | Fully supported |
+| **Ease of Use** | More user-friendly | More complex but flexible |
+
+---
+
 ### 🔄 Mercurial Workflow
 🔽 Clone ➡️ 📝 Edit ➡️ ✨ Commit ➡️ ⬆️ Push ➡️ ⬇️ Pull & Merge
 
