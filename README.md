@@ -201,20 +201,6 @@ Each user has a complete copy of the repository, enabling offline work.
 
 ---
 
-## **🔹 Mercurial vs. Git: Key Differences**
-
-| **Feature** | **Mercurial** | **Git** |
-|------------|-------------|---------|
-| **Type** | Distributed VCS | Distributed VCS |
-| **Repository** | Every user has a full copy | Every user has a full copy |
-| **Speed** | Fast, but slightly slower than Git | Extremely fast |
-| **Branching** | Supports named branches and bookmarks | Lightweight branches |
-| **Merging** | Simplified merging process | Advanced merging capabilities |
-| **Offline Work** | Fully supported | Fully supported |
-| **Ease of Use** | More user-friendly | More complex but flexible |
-
----
-
 ### 🔄 Mercurial Workflow
 🔽 Clone ➡️ 📝 Edit ➡️ ✨ Commit ➡️ ⬆️ Push ➡️ ⬇️ Pull & Merge
 
