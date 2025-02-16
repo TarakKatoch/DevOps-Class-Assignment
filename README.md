@@ -15,7 +15,74 @@ Version Control Systems (**VCS**) are essential for managing software changes, e
 
 ---
 
-## 🛠 Subversion (SVN) - A Centralized Version Control System
+## 🛠 Subversion (SVN)
+
+---
+  
+## **📌 What is SVN?**
+SVN (**Apache Subversion**) is a **centralized version control system (CVCS)** that helps developers track changes to files and collaborate on projects efficiently.
+
+---
+
+## **🔹 Key Features of SVN**
+
+1. **Centralized Repository**
+   - A single server stores all files and version history.
+   - Developers must connect to the server to commit or retrieve changes.
+
+2. **Revision-Based Tracking**
+   - Every commit creates a **new revision number** (e.g., `r1, r2, r3`).
+   - Enables rolling back to previous versions.
+
+3. **Atomic Commits**
+   - Ensures all changes are committed together or not at all.
+
+4. **Branching & Tagging**
+   - SVN supports **directory-based branching and tagging**.
+
+5. **Access Control & Permissions**
+   - Allows restricting access to files and directories.
+
+6. **Locking Mechanism (Exclusive Checkout)**
+   - Prevents multiple users from modifying the same file simultaneously.
+
+---
+
+## **🔹 How SVN Works?**
+
+### **1️⃣ Central Repository**
+SVN uses a **single central repository** to store all files and history.
+
+### **2️⃣ Working Copy**
+Developers get a **local copy** of the repository to make changes.
+
+### **3️⃣ Changes and Commits**
+- Developers **edit files locally**.
+- They **commit changes** to the repository.
+- SVN assigns a **new revision number** for each commit.
+
+### **4️⃣ Updates & Merging**
+- Users **update** their working copy to get the latest changes.
+- SVN helps **merge** modifications from different developers.
+
+---
+
+## **🔹 Basic SVN Commands**
+
+| **Command** | **Description** |
+|------------|----------------|
+| `svn checkout <repo-url>` | Get a working copy of the repository |
+| `svn update` | Update local copy with latest changes |
+| `svn add <file>` | Add a new file to version control |
+| `svn commit -m "Message"` | Commit changes to the repository |
+| `svn revert <file>` | Undo local changes before committing |
+| `svn status` | Show modified files |
+| `svn log` | View commit history |
+| `svn diff` | Compare changes between revisions |
+| `svn resolve` | Resolve merge conflicts |
+
+---
+
 ### 🔄 SVN Workflow
 🔽 Checkout ➡️ 📝 Edit ➡️ ✨ Commit ➡️ ⬇️ Update ➡️ ⚔️ Resolve Conflicts
 
