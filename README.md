@@ -96,7 +96,6 @@ Developers get a **local copy** of the repository to make changes.
 ```sh
 svnadmin create C:\svn_repos\my_repo
 ```
-(Replace C:\svn_repos\my_repo with your desired path.)
 ![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20143202.png)
 
 
@@ -104,7 +103,6 @@ svnadmin create C:\svn_repos\my_repo
 ```sh
 svn checkout file:///C:/svn_repos/my_repo C:\Users\YourUser\my_working_copy
 ```
-(Replace C:/svn_repos/my_repo with your actual repository path and C:\Users\YourUser\my_working_copy with your working directory.)
 ![Screenshot](https://raw.githubusercontent.com/TarakKatoch/DevOps-Class-Assignment/main/images/Screenshot%202025-02-14%20021105.png)
 
 
